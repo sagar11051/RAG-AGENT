@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# LangGraph local artifacts
+.langgraph_api/
+
+# Claude Code
+.claude/
+
+# Data (large crawled documents)
+data/
+
+# Planning notes (personal)
+PLAN_QUERY_SYNTHESIZER.md
+phase8plan.md
+planphase8.md
+improve_chunks.md
+embedding_readme.md
+llm_readme.md
